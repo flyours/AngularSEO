@@ -12,7 +12,7 @@
 		<!-- The path to the PhantomJS binary -->
 		<init-param>
 			<param-name>phantomjs.binary.path</param-name>
-			<param-value>C:\\Users\\john.huang\\Desktop\\AngularJS SEO\\phw\\bin\\phantomjs.exe</param-value>
+			<param-value>/Users/twer/lenovo/cto-latest/TCMP/trunk/source/cto-web/node_modules/phantomjs/lib/phantom/bin/phantomjs</param-value>
 		</init-param>
 		<!-- The time waiting the JS page to finish the dynamic loading, unit is second.
 			 Too short waiting, the page may only load partial content.
@@ -36,7 +36,7 @@
 		<!-- The path to save the static version pages -->
 		<init-param>
 			<param-name>cachePath</param-name>
-			<param-value>c:\\cache</param-value>
+			<param-value>/tmp/seo-cache</param-value>
 		</init-param>
 		<!-- crawlDepth is used to limited the crawl depth -->
 		<init-param>
